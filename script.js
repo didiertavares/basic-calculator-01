@@ -1,5 +1,6 @@
 const numberDisplay = document.querySelector('p')
 const keypad = document.querySelectorAll('.key')
+const mathOps = document.querySelectorAll('.op')
 const button = document.querySelector('button')
 const enterButton = document.getElementById('enter')
 
@@ -8,12 +9,18 @@ const operationElements = []
 let keyValue
 
 keypad.forEach(button => {
-    button.addEventListener('click', assignValue() {
+    button.addEventListener('click', function() {
         keyValue = this.value
-        alert('clicked button value:', keyValue)
+        console.log('clicked button value:', keyValue)
     })
 })
 
+mathOps.forEach(button => {
+    button.addEventListener('click', function() {
+        keyValue = this.value
+        console.log('clicked button op value:', keyValue)
+    })
+})
 
 let result
 let data1
