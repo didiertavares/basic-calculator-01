@@ -31,19 +31,23 @@ let result
 let data1
 let data2
 
-// function enter()    {
-//     button.addEventListener('click', function() {
-//     if (operValue=+) {
+function calculus() {
+    result = Number(operationElements[0]).Number(operValue).Number(operationElements[1])
+    console.log(result)
+}
+
+
+//     if (operValue = +) {
 //         add()
-//     } else if (operValue=-) {
+//     } else if (operValue =-) {
 //         sub()
-//     } else if (operValue = *) {
+//     } else if (operValue =*) {
 //         mult()
-//     } else {
-//         div()
+//     // } else {
+//     //     div()
 //     }
-//     })
-// }
+
+enter.addEventListener('click', calculus)
 
 function add()  {
     result = operationElements[0] + operationElements[1] 
