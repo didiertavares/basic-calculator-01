@@ -44,7 +44,7 @@ function calculus() {
     } else if (operValue === "*") {
         result = data1*data2
     } else {
-        if (data2 = 0) {
+        if (data2 === 0) {
             result = "Error: operation impossible"
         } else {
             result = data1 / data2

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    border: 5px solid darkblue;
+    display: grid;
+    place-content: center;
+    text-align: center;
+
+    /* background: linear-gradient(blue, turquoise) */
+    background-image: url(/wood-desktop-wooden-aerial.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    border: 5px solid white;
+    border-radius: 30px;
+    background: rgb(0, 0, 0, 0.7);
+    padding: 20px;
+    width: clamp(1rem, 100%, 25rem);
+}
+div{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    
+}
+div h1 {
+    border: 3px solid white;
+    
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    place-content: center;
+    display: grid;
+    background: linear-gradient(black, grey);
+    color: white;
+    text-shadow: 2px 2px 4px white;
+    font-weight: bold;
+    user-select: none;
+}
+div p {
+    border: 3px solid white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    padding-right: 30px;
+    font-size: 50px;
+    display: grid;
+    text-align: right;
+    background: linear-gradient(grey, black);
+    color: white;
+    text-shadow: 2px 2px 4px white;
+    font-weight: bold;
+}
+section {
+    border: 3px solid white;
+    border-radius: 20px;
+    display: grid;
+    place-content: center;
+    grid-template-columns:repeat(4,1fr);
+    background: linear-gradient(black, grey);
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    height: 300px;
+    
+}
+button {
+    border: 3px solid white;
+    width: 70px;
+    height: 50px;
+    border-radius: 30%;
+    margin: 5px;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 3px 3px 2px black;
+    cursor: pointer;
+    background: rgb(40, 40, 40);
+}
+@media (max-width:500px){
+}
