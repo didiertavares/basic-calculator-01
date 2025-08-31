@@ -4,7 +4,7 @@
 }
 body {
     min-height: 100vh;
-    border: 5px solid darkblue;
+    border: 5px solid GREY;
     display: grid;
     place-content: center;
     text-align: center;
@@ -83,4 +83,9 @@ button {
     background: rgb(40, 40, 40);
 }
 @media (max-width:500px){
+}
+
+button:hover {
+    scale: 1.1;
+    background: grey;
 }
