@@ -21,6 +21,8 @@ main{
     background: rgb(0, 0, 0, 0.7);
     padding: 20px;
     width: clamp(1rem, 100%, 25rem);
+    box-sizing: border-box;
+    margin: auto;
 }
 div{
     display: grid;
