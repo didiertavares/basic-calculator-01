@@ -45,12 +45,13 @@ function calculus() {
         result = data1*data2
     } else {
         if (data2 === 0) {
-            result = "Error: operation impossible"
+            result = "Error"
         } else {
             result = data1 / data2
         }
     }
     console.log(result)
+    
     display.innerText = result
     operationElements.splice(1)
     console.log(operationElements.length)
