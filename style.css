@@ -13,6 +13,7 @@ body {
     background-image: url(/wood-desktop-wooden-aerial.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
+    user-select: none;
 }
 main{
     border: 5px solid white;
@@ -39,7 +40,7 @@ div h1 {
     color: white;
     text-shadow: 2px 2px 4px white;
     font-weight: bold;
-    user-select: none;
+    
 }
 div p {
     border: 3px solid white;
@@ -83,8 +84,11 @@ button {
     cursor: pointer;
     background: rgb(40, 40, 40);
 }
-@media (max-width:500px){
-}
+/* @media (max-width:500px){
+    section {
+        grid-template-columns:repeat(3,1fr);
+    }
+} */
 
 button:hover {
     scale: 1.1;
